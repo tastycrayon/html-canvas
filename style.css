@@ -1,13 +1,15 @@
-*,
-*::before,
+* {
+  box-sizing: border-box;
+}
+html, body, *::before,
 *::after {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 body {
   background-color: red;
 }
 canvas {
+  display:block;
   background-color: #eeeff8;
 }
